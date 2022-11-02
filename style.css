@@ -1,0 +1,68 @@
+@font-face {
+	font-family: Avenir;
+	src: url('./assets/fonts/AvenirLTStd-Book.otf') format('opentype');
+}
+@font-face {
+	font-family: Avenir;
+	src: url('./assets/fonts/AvenirLTStd-Black.otf') format('opentype');
+	font-weight: bold;
+}
+@font-face {
+	font-family: Avenir;
+	src: url('./assets/fonts/AvenirLTStd-Roman.otf') format('opentype');
+	font-weight: lighter;
+}
+@font-face {
+	font-family: myriad;
+	src: url('./assets/fonts/MYRIADPRO-REGULAR.woff') format('opentype');
+	font-weight: lighter;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+canvas {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: transparent;
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+}
+
+body {
+	background-color: rgb(247, 247, 247);
+	color: #545454;
+	font-family: myriad;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+	line-height: 28px;
+}
+
+h1 {
+	font-family: Avenir;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+p {
+	margin-bottom: 20px;
+}
+
+.content {
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
